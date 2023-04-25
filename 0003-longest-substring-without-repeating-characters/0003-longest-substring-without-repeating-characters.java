@@ -5,20 +5,10 @@ class Solution {
         Set<Character> hs = new HashSet<Character>();
             
         for(right =0;right<s.length();right++){
-            if(!hs.contains(s.charAt(right)))
-               {
-                   hs.add(s.charAt(right));
-                   maxLength = Math.max(maxLength,right-left+1);
-               }
-            else{
-                while(s.charAt(right) != s.charAt(left)){
-                    hs.remove(s.charAt(left));
-                    left++;
-                }
-                hs.remove(s.charAt(left));
-                left++;
-                hs.add(s.charAt(right));
-            } 
+            while(!hs.add(s.charAt(right))){
+                hs.remove(s.charAt(left++));
+            }
+            maxLength = Math.max(maxLength, hs.size());
               
         }
         
