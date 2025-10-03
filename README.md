@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0066-plus-one](https://github.com/saurabhambar/LeetCode-Ambar/tree/master/0066-plus-one) |
 | [0217-contains-duplicate](https://github.com/saurabhambar/LeetCode-Ambar/tree/master/0217-contains-duplicate) |
 ## Hash Table
 |  |
@@ -21,4 +22,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0242-valid-anagram](https://github.com/saurabhambar/LeetCode-Ambar/tree/master/0242-valid-anagram) |
+## Math
+|  |
+| ------- |
+| [0066-plus-one](https://github.com/saurabhambar/LeetCode-Ambar/tree/master/0066-plus-one) |
 <!---LeetCode Topics End-->
